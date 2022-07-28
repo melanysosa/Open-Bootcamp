@@ -5,6 +5,6 @@
 	background: rgb(51, 161, 0);
 	color: #fff;
 }
-.boton:hover::after {
+.boton:hover::before {
 	content: '¡Hecho!';
 }
