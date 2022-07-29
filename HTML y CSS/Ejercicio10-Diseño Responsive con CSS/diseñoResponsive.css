@@ -1,0 +1,35 @@
+body {
+	min-height: 100vh;
+	display: flex;
+}
+.barraLateral {
+	background-color: #3c27b4;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	margin: 10px;
+	border-radius: 10px;
+	gap: 30px;
+	font-size: 1.5rem;
+}
+
+.seccionPrincipal {
+	background-color: #0c0d14;
+	color: #fff;
+	padding: 60px;
+	margin: 10px;
+	border-radius: 10px;
+	flex-grow: 1;
+	font-size: 4rem;
+}
+
+@media (max-width: 640px) {
+	body {
+		flex-direction: column-reverse;
+	}
+	.barraLateral {
+		flex-direction: row;
+		justify-content: space-evenly;
+	}
+} ;
